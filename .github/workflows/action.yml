@@ -17,5 +17,5 @@ jobs:
         node-version: 20
         cache: 'npm'
     - run: npm ci
-    - run: npm install jest --global
+    - run: npm install jest ts-jest --global
     - run: npm test
